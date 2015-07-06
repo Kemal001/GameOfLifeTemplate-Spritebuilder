@@ -10,7 +10,7 @@
 #import "Grid.h"
 
 @implementation MainScene {
-    Grid *grid;
+    Grid *_grid;
     CCTimer *_timer;
     CCLabelTTF *_generationLabel;
     CCLabelTTF *_populationLabel;
