@@ -161,7 +161,7 @@
 				<key>displayName</key>
 				<string>CCBFile</string>
 				<key>memberVarAssignmentName</key>
-				<string></string>
+				<string>_grid</string>
 				<key>memberVarAssignmentType</key>
 				<integer>1</integer>
 				<key>properties</key>
@@ -210,6 +210,8 @@
 						<string>GameOfLifeAssets/BackgroundImage/Grid.ccb</string>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -352,7 +354,7 @@
 										<key>displayName</key>
 										<string>CCLabelTTF</string>
 										<key>memberVarAssignmentName</key>
-										<string></string>
+										<string>_generationLabel</string>
 										<key>memberVarAssignmentType</key>
 										<integer>1</integer>
 										<key>properties</key>
@@ -386,8 +388,8 @@
 												<string>Point</string>
 												<key>value</key>
 												<array>
-													<real>1.2596395015716553</real>
-													<real>0.25583016872406006</real>
+													<real>1.6869367361068726</real>
+													<real>0.17444021999835968</real>
 												</array>
 											</dict>
 											<dict>
@@ -780,8 +782,6 @@
 												</array>
 											</dict>
 										</array>
-										<key>selected</key>
-										<true/>
 									</dict>
 									<dict>
 										<key>UUID</key>
@@ -1016,7 +1016,7 @@
 										<key>displayName</key>
 										<string>CCLabelTTF</string>
 										<key>memberVarAssignmentName</key>
-										<string></string>
+										<string>_populationLabel</string>
 										<key>memberVarAssignmentType</key>
 										<integer>1</integer>
 										<key>properties</key>
@@ -1050,8 +1050,8 @@
 												<string>Point</string>
 												<key>value</key>
 												<array>
-													<real>-0.13878777623176575</real>
-													<real>-3.0608103275299072</real>
+													<real>0.14603994786739349</real>
+													<real>-3.0581836700439453</real>
 												</array>
 											</dict>
 											<dict>
@@ -1404,7 +1404,7 @@
 										<string>Block</string>
 										<key>value</key>
 										<array>
-											<string></string>
+											<string>pause</string>
 											<integer>1</integer>
 										</array>
 									</dict>
@@ -1730,7 +1730,7 @@
 										<string>Block</string>
 										<key>value</key>
 										<array>
-											<string></string>
+											<string>play</string>
 											<integer>1</integer>
 										</array>
 									</dict>
